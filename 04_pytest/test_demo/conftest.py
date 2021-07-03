@@ -12,6 +12,6 @@ import pytest
 #预置函数 用于前期的数据准备
 @pytest.fixture(scope='function')
 def xuzhu():
-    print('虚竹很强')
+    print('虚竹很强!')
 def xuzhu01():
     return 1
